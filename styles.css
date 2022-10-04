@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: bisque;
+}
+
+
+main{
+    margin:5rem;
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    margin:2rem;
+    color: royalblue;
+}
+label{
+    display: block;
+    font-size: 2rem;
+}
+#birthday{
+    font-size: 1rem;
+    outline:royalblue;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid royalblue;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 340px;
+    height: 55px;
+}
+#button{
+    font-size: 1rem;
+    display: block;
+    margin:auto;
+    padding:0.5rem 2rem;
+    color:white ;
+    background-color: royalblue;
+    border: 2px solid royalblue;
+    border-radius: 0.5rem;
+}
+#button:active {
+    color: royalblue;
+    background-color: white;
+}
+#output{
+    margin:3rem;
+    font-size: 2rem;
+    color: royalblue;
+}
